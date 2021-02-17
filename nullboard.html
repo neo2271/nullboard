@@ -46,7 +46,8 @@
 
   -->
   <meta charset="utf-8">
-  <title>Nullboard</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <title>Nullboard | Minh Tâm Group</title>
   <style>
 
 	/***/
@@ -1122,12 +1123,12 @@
 </head>
 <body>
 	<div class=logo>
-		<a href=https://nullboard.io>Nullboard</a>
+		<a href=.><b>Nullboard</b></a>
 		<div class=bulk>
 			<a href=# class=view-about>About</a>
-			<a href=# class=view-license>License</a>
-			<a href=https://nullboard.io/github  target=_blank>Github</a>
-			<a href=https://nullboard.io/twitter target=_blank>Twitter</a>
+			<!-- <a href=https://github.com/apankrat/nullboard target=_blank>Github</a> -->
+			<!-- <a href=https://nullboard.io/twitter target=_blank>Twitter</a> -->
+			<!-- <a href=# class=view-license>License</a> -->
 		</div>
 	</div>
 
@@ -1225,7 +1226,7 @@
 		<div class=about>
 			<h1>Nullboard</h1>
 			Minimalist locally-stored kanban board
-			<a href=https://nullboard.io target=_blank>https://nullboard.io</a>
+			<a href=https://github.com/apankrat/nullboard target=_blank>https://github.com/apankrat/nullboard</a>
 			<div></div>
 		</div>
 
@@ -1347,7 +1348,7 @@
 		var title = getText( $text );
 
 		document.board.title = title;
-		document.title = 'NB - ' + (title || '(unnamed board)');
+		document.title = (title || '(Unnamed Board)') + ' - Nullboard | Minh Tâm Group';
 	}
 
 	function updateUndoRedo()
